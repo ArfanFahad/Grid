@@ -6,6 +6,34 @@
     font-size: x-large;    
 }
 
+/* First I am going to make a grid   */
+/* If I write 'display: grid' it simply do nothing */
+/* 'grid-template-columns: auto auto' এটার মানে হলো
+    ২ টা কলাম হবে এবং স্ক্রিনের সাইজ অনুযায়ী সে জায়গা করে নিব। */
+/* 'grid-template-rows: 100px auto 100px, এটার মানে হলো
+    ধরা যাক আমাদের কাছে ১২ টা সারি আছে কিন্তু 100px auto 100px মানে প্রথম
+    ৩ টা সারির প্রথমটা হবে ১০০পিক্সেলের মানে সারির চওড়া, ২য়টা হবে অটো এবং ৩য়টাও হবে 
+    ১০০ পিক্সেলের। */
+/* 'grid-row-gap: 5px' মানে হলো শুধুমাত্র সারিতে ৫ পিক্সেল গ্যাপ */
+/* 'grid-column-gap: 2px' শুধুমাত্র কলাম বরাবর ২ পিক্সেল গ্যাপ */
+/* 'grid-row-gap এবং grid-column-gap এই ২টা মিলে হয়েছে
+    grid-gap যেখানে একাধিক ভেল্যু দেয়া যাবে। যেমন: 
+    'grid-gap: 5px 20px' মানে হলো সারিতে ৫পিক্সেল গ্যাপ আর 
+    রো বরাবর ২০পিক্সেল গ্যাপ। */
+/* */
+/* */
+/* */
+/* */
+/* */
+
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 5px 20px;
+}
+
 #one {
     background-color: green;
 }
