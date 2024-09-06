@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: aliceblue;
+    font-size: x-large;    
+}
+
+#one {
+    background-color: green;
+}
+
+#two {
+    background-color: blue; 
+}
+
+#three {
+    background-color: red; 
+}
+
+#four {
+    background-color: navy;
+}
+
+#five {
+    background-color: olive;
+}
+
+#six {
+    background-color: blueviolet;
+}
+
+#seven {
+    background-color: maroon;
+}
+
+#eight {
+    background-color: green;
+}
+
+#nine {
+    background-color: violet;
+}
+
+#ten {
+    background-color: lightcoral;
+}
+
+#eleven {
+    background-color: royalblue;
+}
+
+#twelve {
+    background-color: tomato;
+}
